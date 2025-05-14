@@ -19,13 +19,7 @@ print("3 -", teste)
 
 matriz = np.arange(9).reshape(3, 3)
 print("4 -\n", matriz)
-<<<<<<< HEAD
 print("4 - Mínimo\n", np.min(matriz))
 print("4 - Mínimo\n", np.max(matriz))
 
 # 5. Criar uma matriz identidade 3x3.
-=======
-
-print('A - Mínimo', np.min(matriz))
-print('B - Máximo', np.max(matriz))
->>>>>>> c58b310d28ec15b837eb6aaf7457a931d0c588c1
