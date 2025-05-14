@@ -19,3 +19,6 @@ print("3 -", teste)
 
 matriz = np.arange(9).reshape(3, 3)
 print("4 -\n", matriz)
+
+print('A - Mínimo', np.min(matriz))
+print('B - Máximo', np.max(matriz))
