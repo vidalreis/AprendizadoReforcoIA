@@ -1,4 +1,5 @@
 import numpy as np
+import math
 
 # 1. Criar um vetor nulo de tamanho 10.
 teste = [10]
@@ -31,3 +32,38 @@ media_linhas = matriz.mean(axis=1)
 print("6 - Matriz original:\n", matriz)
 print("6 - Média de cada linha:", media_linhas.flatten())
 
+# Exercícios de Lógica de Programação PYTHON
+# 1. Calcule a área de um círculo (raio = 5)
+raio = 5
+area = math.pi * raio ** 2
+print("1 - Área do círculo:", area)
+
+# 2. Inverta uma string ("Python" → "nohtyP")
+string = "Python"
+print("2 - String invertida:", string[::-1])
+
+# 3. Some todos os elementos de uma lista ([1, 2, 3, 4] → 10)
+lista = [1, 2, 3, 4]
+print("3 - Soma dos elementos:", sum(lista))
+
+# 4. Verifique se um número é par ou ímpar
+numero = 7
+if numero % 2 == 0:
+    print("4 - Par")
+else:
+    print("4 - Ímpar")
+
+# 5. Imprima os números de 1 a 10, exceto o 5
+print("5 - Números de 1 a 10 (exceto o 5):")
+for i in range(1, 11):
+    if i == 5:
+        continue
+    print(i)
+
+# 6. Crie uma função que calcula o fatorial de um número
+def fatorial(n):
+    if n == 0 or n == 1:
+        return 1
+    return n * fatorial(n - 1)
+
+print("6 - Fatorial de 5:", fatorial(5))
